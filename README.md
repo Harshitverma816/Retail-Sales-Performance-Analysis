@@ -149,4 +149,4 @@ Open the Gamma presentation or the PDF report included in the project folder.
 
 This project demonstrates the end-to-end data analytics pipeline — from raw data to actionable insights. It reflects proficiency in data cleaning, SQL analysis, visualization, and storytelling, which are essential skills for any Data Analyst or Business Intelligence role.
 
-💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
+💡 Thanks for checking out the project!
