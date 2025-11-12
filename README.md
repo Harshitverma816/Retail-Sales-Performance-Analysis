@@ -114,7 +114,7 @@ Suggested inventory and discount optimization strategies for higher profitabilit
 
 🧭 How to Run This Project
 1. Clone the Repository
-git clone https://github.com/yourusername/retail-sales-performance-analysis.git
+git clone https://github.com/Harshitverma816/Retail-Sales-Performance-Analysis.git
 
 2. Open the Project
 
