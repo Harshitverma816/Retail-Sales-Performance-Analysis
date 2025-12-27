@@ -1,149 +1,90 @@
-🧠 Retail Sales Performance Analysis
-📘 Overview
+📊 **Retail Sales Performance Analysis**
+A data analytics project that uncovers actionable retail sales insights from transactional data, tracks performance trends, identifies high-value customers & products, and visualizes results using SQL, Python, and Power BI.
 
-This project focuses on analyzing retail sales data to uncover insights into business performance, customer segments, and profitability. The goal is to identify key sales trends, optimize profit margins, and visualize actionable insights through interactive dashboards.
+🧠 **Project Overview**
+This repository demonstrates an end-to-end retail sales analysis pipeline:
+- Data cleaning & exploration
+- SQL-based analytics
+- Interactive dashboard development
+- Business reporting & recommendations
 
-The complete workflow covers data analysis using Python, data querying with SQL (MySQL Server), and business intelligence visualization through Power BI, followed by a comprehensive project report and presentation created in Gamma.
+🎯 **Objectives**
+- Analyze sales performance over time and across segments
+- Identify top products, regions, and customers
+- Measure profit margins and discount effectiveness
+- Build an interactive dashboard to communicate results
+- Translate insights into business recommendations
+**Tools used:** Python, MySQL, Power BI, Gamma (report), Jupyter/VS Code.
 
-📊 Dataset
+📋 **Dataset**
+Source: Superstore/Retail Sales dataset (CSV format, 10000 rows)
+Key Fields:
+- Order details (Order ID, Dates, Ship Mode)
+- Customer info (Segment, Region, City)
+- Product info (Category, Subcategory)
+- Financial metrics (Sales, Quantity, Discount, Profit)
 
-Source: Superstore/Retail Sales dataset (CSV format)
-
-Size: ~10,000 records
-
-Features include:
-
-Order details (Order ID, Order Date, Ship Date, Ship Mode)
-
-Customer information (Customer ID, Segment, Region, Country, City)
-
-Product data (Category, Sub-Category, Product ID, Product Name)
-
-Financial metrics (Sales, Quantity, Discount, Profit)
-
-🧰 Tools and Technologies Used
-Tool / Language	Purpose
-Python (Pandas, NumPy, Matplotlib, Seaborn)	Data loading, cleaning, and EDA
-MySQL Server	Running SQL queries and data transformation
-Power BI	Dashboard creation and visualization
-Gamma App	Report and presentation creation
-Excel / CSV	Dataset storage and import/export
-Jupyter Notebook / VS Code	Python scripting and analysis
-⚙️ Project Workflow / Steps
-1. Data Loading
-
-Load dataset using Pandas.
-
-Check for missing values, data types, and duplicates.
-
-2. Data Cleaning
-
-Handle missing or incorrect values.
-
-Convert date columns to datetime format.
-
-Create new calculated columns like:
-
-Profit Margin % = (Profit / Sales) * 100
-
-Shipping Days = Ship Date - Order Date
-
-3. Exploratory Data Analysis (EDA)
-
-Identify top-performing products, regions, and customer segments.
-
-Analyze sales and profit trends over time.
-
-Explore relationships between discounts and profit margins.
-
-Visualize insights using Matplotlib and Seaborn charts (bar, scatter, heatmap, etc.).
-
-4. SQL Analysis (MySQL Server)
-
-Import cleaned dataset into MySQL.
-
-Execute queries for:
-
-Top 10 profitable products.
-
-Monthly sales trend.
-
-Region-wise and category-wise profit.
-
-Customer segment analysis.
-
-Advanced queries using JOIN, GROUP BY, and CTE.
-
-5. Dashboard Development (Power BI)
-
-Import SQL dataset into Power BI.
-
-Create a 3-page interactive dashboard:
-
-Sales Overview – Total Sales, Profit, Quantity, KPIs, and trends.
-
-Customer & Product Insights – Category/Subcategory performance, top customers, tree maps.
-
-Regional Analysis – Sales and profit by state/region (Map visualization).
-
-Apply a professional color palette and clean layout for storytelling.
-
-6. Reporting and Presentation
-
-Summarize findings, trends, and recommendations in a project report.
-
-Create a professional presentation using Gamma, highlighting:
-
-Objectives
-
-Process workflow
-
-Key insights & visualizations
-
-Recommendations for business growth
-
-📈 Results & Insights
-
-Identified the most profitable regions and product categories.
-
-Found a negative correlation between discount and profit margin.
-
-Highlighted customer segments contributing to maximum sales.
-
-Suggested inventory and discount optimization strategies for higher profitability.
-
-🧭 How to Run This Project
-1. Clone the Repository
+🚀 Installation & Setup
+1️⃣ Clone
 git clone https://github.com/Harshitverma816/Retail-Sales-Performance-Analysis.git
+cd Retail-Sales-Performance-Analysis
 
-2. Open the Project
-
-Launch Jupyter Notebook or VS Code.
-
-Open the retail_sales_analysis.ipynb file.
-
-3. Install Dependencies
+2️⃣ Python Dependencies
 pip install pandas numpy matplotlib seaborn mysql-connector-python
 
-4. Run Python Scripts
+3️⃣ SQL Setup
+- Load cleaned dataset into MySQL Server
+- Run queries in queries.sql
 
-Execute the cells in order to perform data cleaning and EDA.
+4️⃣ Power BI
+- Connect to the MySQL database
+- Use provided layout instructions to recreate visuals
 
-5. Run SQL Queries
+📊 Project Workflow
+🧹 Data Cleaning
+- Handle missing/incorrect values
+- Convert dates
+- Add calculated features:
+  - Profit Margin % = Profit / Sales
+  - Shipping Days = Ship Date – Order Date
 
-Import the cleaned dataset into MySQL Server.
+🔍 Exploratory Data Analysis (EDA)
+- Identify high-value products & regions
+- Check trends over time
+- Correlate discount vs. profit
 
-Run the SQL queries from the queries.sql file.
+🧠 SQL Analytics
+Use SQL for:
+- Top 10 products by profit
+- Monthly sales trends
+- Category & region profitability
+- Customer segmentation queries
 
-6. Build Dashboard
+📈 Power BI Dashboard
+Pages Included:
+  1. Sales Overview – Total metrics, growth curves
+  2. Customer & Product Insights – Segment analysis, treemaps
+  3. Regional Performance – Maps & state-level comparisons
 
-Open Power BI and connect to your SQL Server database.
+📌 Key Insights
+- Certain regions outperform others in profit
+- Discounting negatively impacts margin beyond a threshold
+- A small set of products drives majority revenue
+👉 These insights should inform pricing, inventory, and marketing strategies.
 
-Import the cleaned data and recreate visuals following the steps in the documentation.
+📁 File Structure
+/data                    # Raw and cleaned dataset
+/queries.sql             # SQL analytics queries
+/retail_sales_analysis.ipynb  # Python EDA notebook
+/PowerBI/                # Power BI assets
+/GammaReport/            # Final presentation files
 
-7. View Report and Presentation
-
-Open the Gamma presentation or the PDF report included in the project folder.
+🎯 Outcome & Skills Demonstrated
+- End-to-end analytics workflow
+- SQL querying and transformations
+- Python data manipulation & visualization
+- BI dashboard creation (Power BI)
+- Business storytelling & reporting
 
 🏁 Conclusion
 
