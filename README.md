@@ -24,7 +24,8 @@ Key Fields:
 - Product info (Category, Subcategory)
 - Financial metrics (Sales, Quantity, Discount, Profit)
 
-🚀 Installation & Setup
+🚀 **Installation & Setup**
+
 1️⃣ Clone
 git clone https://github.com/Harshitverma816/Retail-Sales-Performance-Analysis.git
 cd Retail-Sales-Performance-Analysis
@@ -40,7 +41,8 @@ pip install pandas numpy matplotlib seaborn mysql-connector-python
 - Connect to the MySQL database
 - Use provided layout instructions to recreate visuals
 
-📊 Project Workflow
+📊 **Project Workflow**
+
 🧹 Data Cleaning
 - Handle missing/incorrect values
 - Convert dates
@@ -66,31 +68,36 @@ Pages Included:
   2. Customer & Product Insights – Segment analysis, treemaps
   3. Regional Performance – Maps & state-level comparisons
 
-📌 Key Insights
+📌 **Key Insights**
 - Certain regions outperform others in profit
 - Discounting negatively impacts margin beyond a threshold
 - A small set of products drives majority revenue
 👉 These insights should inform pricing, inventory, and marketing strategies.
 
-📁 File Structure
+📁 **File Structure**
+
 /data                    # Raw and cleaned dataset
+
 /queries.sql             # SQL analytics queries
+
 /retail_sales_analysis.ipynb  # Python EDA notebook
+
 /PowerBI/                # Power BI assets
+
 /GammaReport/            # Final presentation files
 
-🎯 Outcome & Skills Demonstrated
+🎯 **Outcome & Skills Demonstrated**
 - End-to-end analytics workflow
 - SQL querying and transformations
 - Python data manipulation & visualization
 - BI dashboard creation (Power BI)
 - Business storytelling & reporting
 
-🏁 Conclusion
+🏁 **Conclusion**
 
 This project demonstrates the end-to-end data analytics pipeline — from raw data to actionable insights. It reflects proficiency in data cleaning, SQL analysis, visualization, and storytelling, which are essential skills for any Data Analyst or Business Intelligence role.
 
-📬 Contact & Portfolio
+📬 **Contact & Portfolio**
 Contact	                      Link
 LinkedIn	                    [Harshit Verma](https://www.linkedin.com/in/harshit-verma-468b94398/)
 GitHub	                      https://github.com/Harshitverma816
