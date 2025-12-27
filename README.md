@@ -90,4 +90,10 @@ Pages Included:
 
 This project demonstrates the end-to-end data analytics pipeline — from raw data to actionable insights. It reflects proficiency in data cleaning, SQL analysis, visualization, and storytelling, which are essential skills for any Data Analyst or Business Intelligence role.
 
+📬 Contact & Portfolio
+Contact	                      Link
+LinkedIn	                    [Harshit Verma](https://www.linkedin.com/in/harshit-verma-468b94398/)
+GitHub	                      https://github.com/Harshitverma816
+Email	                        Harsh692002@gmail.com
+
 💡 Thanks for checking out the project!
